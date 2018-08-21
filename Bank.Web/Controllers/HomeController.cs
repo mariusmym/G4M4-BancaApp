@@ -10,6 +10,7 @@ namespace Bank.Web.Controllers
     {
         public ActionResult Index()
         {
+
             return View();
         }
 
