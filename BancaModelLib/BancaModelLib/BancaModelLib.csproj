@@ -49,60 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Angajat.cs">
-      <DependentUpon>BancaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="BancaModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BancaModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="BancaModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BancaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="BancaModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BancaModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Card.cs">
-      <DependentUpon>BancaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Client.cs">
-      <DependentUpon>BancaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Cont.cs">
-      <DependentUpon>BancaModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EntityDeploy Include="BancaModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>BancaModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.Config" />
-    <None Include="BancaModel.edmx.diagram">
-      <DependentUpon>BancaModel.edmx</DependentUpon>
-    </None>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="BancaModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>BancaModel.Context.cs</LastGenOutput>
-      <DependentUpon>BancaModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="BancaModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BancaModel.edmx</DependentUpon>
-      <LastGenOutput>BancaModel.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
